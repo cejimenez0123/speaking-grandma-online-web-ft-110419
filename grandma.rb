@@ -19,9 +19,9 @@ def speak_to_grandma(phrase)
   elsif phrase == "Hi!"
     return "HUH?! SPEAK UP, SONNY";
   elsif phrase == "WHAT DID YOU EAT TODAY"
-    return "NO, NOT SINCE 1938";
+    return "NO, NOT SINCE 1938!";
   elsif phrase == "WHAT?"
-    return"NO, NOT SINCE 1938";
+    return"NO, NOT SINCE 1938!";
   else return "HUH?! SPEAK UP, SONNY";
     binding.pry
         speak_to_grandma(phrase)
